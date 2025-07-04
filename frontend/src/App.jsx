@@ -20,7 +20,8 @@ function App() {
     setError("");
     try {
       const response = await axios.post(
-        "http://localhost:8084/api/email/generate",
+        // "http://localhost:8084/api/email/generate",
+        "https://chrome-extention-email-reply-ai.onrender.com/api/email/generate",
         { emailContent, tone }
       );
       setGeneratedReply(
@@ -80,7 +81,11 @@ function App() {
           {loading ? <CircularProgress size={24} /> : "Generate Reply"}
         </Button>
       </Box>
-      {error && <Typography sx={{ mb: 2,ml:30}} color="red">{error}</Typography>}
+      {error && (
+        <Typography sx={{ mb: 2, ml: 30 }} color="red">
+          {error}
+        </Typography>
+      )}
       {generatedReply && (
         <Box sx={{ mt: 3 }}>
           <Typography variant="h6" gutterBottom>
