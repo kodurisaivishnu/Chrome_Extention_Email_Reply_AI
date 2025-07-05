@@ -21,4 +21,5 @@
     <fullyQualifiedTypeName name="com.email.writer.app.service.EmailGeneratorService"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
     <fullyQualifiedTypeName name="com.email.writer.app.GeminiRequest"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
 </qualifiedTypeNameHistroy>
