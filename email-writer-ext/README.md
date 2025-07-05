@@ -4,7 +4,9 @@ AI-powered email reply generator that integrates directly into Gmail via a Chrom
 
 ---
 
-![Email Writer Assistant Guide Image](images/guide.gif)
+<p align="center">
+  <img src="images/guide.gif" alt="Email Writer Assistant Guide Image" width="500"/>
+</p>
 
 _(Replace this image with your actual screenshot: place your image as `images/screenshot.png` inside your project folder so it appears here on GitHub.)_
 
@@ -22,13 +24,7 @@ _(Replace this image with your actual screenshot: place your image as `images/sc
 ## 📂 Project Structure
 
 Your project folder should look like this:
-email-writer-ext/
-├── manifest.json
-├── content.js
-├── content.css
-├── README.md
-└── images/
-└── screenshot.png
+<pre> ```plaintext email-writer-ext/ ├── manifest.json ├── content.js ├── content.css ├── README.md └── images/ └── guide.gif ``` </pre>
 
 ---
 
